@@ -5,5 +5,18 @@ Initially I was going to make this repo private but github requires ££/$$ for 
 
 # Create a bootable USB 
 
-The recommended way is with the use of the dd command some tools exist for creating bootable flash drives but they are neither recommended nor officially supported.
+The recommended way is with the use of the dd command some tools exist for creating bootable flash drives but they are neither recommended nor officially supported. 
 
+ sudo dd bs=4M if=<MorpheusArch>.iso of=/dev/sdX
+
+# if is always before of
+
+Failure to do so WILL result in the loss of data.
+ 
+ Remember to replace <MorpheusArch> with the current release of MorpheusArch and 
+ 
+ Also remember to replace /dev/sdX with your flash drive. You can find your flash drive with use of the:
+  
+ lsblk
+  
+  
