@@ -1,3 +1,5 @@
+# READ THE PDF / .doc
+
 # MorpheusArch Docs
 Documentation for MorpheusArch Linux
 # Attention
